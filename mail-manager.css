@@ -1,0 +1,11 @@
+input#comments_notify, input#moderation_notify {
+	display: none;
+}
+
+label[for~=comments_notify]:before, label[for~=moderation_notify]:before {
+	content: "(--)";
+}
+
+label[for~=comments_notify]:after, label[for~=moderation_notify]:after {
+	content: " (Change in Mail Manager settings)";
+}
